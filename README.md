@@ -1,3 +1,3 @@
 # deElstar
-# joe mama
-# joe mama 2.0
+# Joe mama
+# Joe mama 2.0
