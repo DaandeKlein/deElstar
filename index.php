@@ -3,6 +3,9 @@
 
     </head>
     <body>
+        <?php 
+            include("connect.php")
+        ?>
 	<legend>Registratie</legend>
     <form action="verhuur.php" method="$_POST">
         Naam: <input name="naam" type="tekst"><br>
