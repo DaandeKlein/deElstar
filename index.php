@@ -4,7 +4,7 @@
     </head>
     <body>
 	<legend>Registratie</legend>
-    <form action="/verhuur.php" method="$_POST">
+    <form action="verhuur.php" method="$_POST">
         Naam: <input name="naam" type="tekst"><br>
         Adres: <input name="adres" type="tekst"><br>
         Postcode:<input name="postcode" type="tekst"><br>
