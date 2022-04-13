@@ -14,7 +14,7 @@
     </form>
         <?php
             include("connect.php");
-             
+
             if (isset($_POST["submit"]))
             {
                 $naam = $_POST["naam"];
