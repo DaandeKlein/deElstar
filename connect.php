@@ -4,6 +4,7 @@
             $user = 'root';
             $pass = '';
             $charset = 'utf8mb4';
+            $conn = mysqli_connect("$host", "$user", "$pass", "$db");
             
             $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
             $options = [
