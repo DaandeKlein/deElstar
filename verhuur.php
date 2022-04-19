@@ -1,5 +1,7 @@
 <html>
-    <head></head>   
+    <head>
+        <link rel="stylesheet" href="verhuur.css">
+    </head>   
     <body>
         <p>hallo</p>
         <?php
@@ -17,7 +19,18 @@
                 VALUES (?, ?, ?, ?, ?);";
                 $pdo->prepare($sql)->execute([$naam, $adres, $woonplaats, $telefoon, $emailadress]);                
             }
+
+
         ?>
+
+        <div class="fietsen">
+            <p>Type</p>
+            <p>Merk</p>
+            <p>Maat</p>
+            <p>D/H fiets<p>
+            <p>Prijs</p>
+            <p>Status</p>
+        </div>
     </body>
 
 </html>
