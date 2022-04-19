@@ -1,3 +1,26 @@
-head{
-    background-color: greenyellow;
+body{
+    background: linear-gradient(#ff0800, #84E184);
+    
 }
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: stretch;
+    
+  }
+
+  .labels
+  {
+    display: block;
+    float: left;
+    width: 75px;
+    font-size:
+    
+    
+  }
+
+  .inputlabel
+  {
+
+  }

@@ -7,16 +7,20 @@
 		<link rel="stylesheet" href="index.css">
     </head>
     <body>
-	<legend>Registratie</legend>
+    <div class ="container">
+	<div class ="center">
+    <legend>Registratie</legend>
     <form action="verhuur.php" method="post">
-        Naam: <input name="naam" type="tekst"><br>
-        Adres: <input name="adres" type="tekst"><br>
+    <label class ="labels">Naam:</label>
+    <input class ="inputlabel" name="naam" type="tekst"><br>
+    <label class ="labels2">adres:</label>
+        <input class ="inputlabel2" name="adres" type="tekst"><br>
         Woonplaats: <input name="woonplaats" type="tekst"><br>
         Telefoon:<input name="telefoon" type="tekst"><br>
         Emailadress:<input name="emailadress" type="tekst"><br>
         <input type="submit" value="submit" name="submit">
-
-    </form>
-        
+        </form>    
+        </div> 
+        </div>    
     </body>
 </html>
