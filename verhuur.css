@@ -1,0 +1,16 @@
+body{
+    text-decoration: black;
+}
+
+.fietsen
+{
+    width: 200px;
+    height: 400px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin: none;
+    border-style: solid;
+    border-radius: 2%;
+
+}
