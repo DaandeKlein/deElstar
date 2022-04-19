@@ -1,6 +1,10 @@
 <html>
     <head>
-
+    <title> De Elstar </title>
+		<meta charset=utf-8>
+		<meta name=description content="beschrijving">
+		<meta name=keywords content="trefword, trefword">
+		<link rel="stylesheet" href="index.css">
     </head>
     <body>
 	<legend>Registratie</legend>
@@ -11,6 +15,7 @@
         Telefoon:<input name="telefoon" type="tekst"><br>
         Emailadress:<input name="emailadress" type="tekst"><br>
         <input type="submit" value="submit" name="submit">
+
     </form>
         
     </body>
