@@ -20,7 +20,7 @@
         <label class ="labels4">Telefoon:</label>
         <input class ="inputlabel4" name="Telefoon" type="tekst"><br>
         <label class ="labels5">Emailadress:</label>
-        <input class ="inputlabel5" name="emailadress" type="tekst"><br>
+        <input class ="inputlabel5" name="Emailadress" type="tekst"><br>
         <input class ="submit" type="submit" value="submit" name="submit">
         </form>    
         </div> 
