@@ -32,13 +32,16 @@
             $check_fiets = mysqli_num_rows($query_run) > 0;
 
             if($check_fiets)
-            {    
+            {  
+                ?>
+                    <div class="container ml-4">
+                        <div class="row mt-4">
+                <?php
                 while($row = mysqli_fetch_array($query_run))
                 {
                    ?>
 
-                    <div class="container ml-4">
-                        <div class="row mt-4">
+                    
                             <div class="col-md-3">
                                 <div class="card">
                                     <div class="card-body">
@@ -52,11 +55,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
                    <?php                                       
                 }
+                ?>
+                        </div>
+                    </div>
+                <?php
             }
             else
             {                
