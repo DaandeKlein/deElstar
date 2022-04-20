@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(#ff0800, #84E184);
+    background: linear-gradient(#84E184, #ff0800);
     
 }
 .center {
@@ -13,14 +13,74 @@ body{
   .labels
   {
     display: block;
-    float: left;
+
     width: 75px;
-    font-size:
+    font-size:50px
     
     
   }
 
   .inputlabel
+  {
+
+  }
+
+  .labels2
+  {
+    display: block;
+
+    width: 75px;
+    font-size:50px
+    
+    
+  }
+
+  .inputlabel2
+  {
+
+  }
+
+  .labels3
+  {
+    display: block;
+    width: 75px;
+    font-size:50px
+    
+    
+  }
+
+  
+  .inputlabel3
+  {
+
+  }
+
+  .labels4
+  {
+    display: block;
+
+    width: 75px;
+    font-size:50px
+    
+    
+  }
+
+  .inputlabel4
+  {
+
+  }
+
+  .labels5
+  {
+    display: block;
+
+    width: 75px;
+    font-size:50px
+    
+    
+  }
+
+  .inputlabel5
   {
 
   }
