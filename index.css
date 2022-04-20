@@ -3,26 +3,29 @@ body{
     
 }
 .center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    align-content: stretch;
+  margin: auto;
+  width: 15%;
+  padding: 10px;
     
   }
 
+  .legend
+  {
+    display: block;
+    width: 75px;
+    font-size:50px 
+  }
   .labels
   {
     display: block;
-
     width: 75px;
-    font-size:50px
-    
-    
+    font-size:50px 
   }
 
   .inputlabel
   {
-
+    width: 250px;
+    height: 50px;
   }
 
   .labels2
@@ -37,7 +40,8 @@ body{
 
   .inputlabel2
   {
-
+    width: 250px;
+    height: 50px;
   }
 
   .labels3
@@ -52,7 +56,8 @@ body{
   
   .inputlabel3
   {
-
+    width: 250px;
+    height: 50px;
   }
 
   .labels4
@@ -67,7 +72,8 @@ body{
 
   .inputlabel4
   {
-
+    width: 250px;
+    height: 50px;
   }
 
   .labels5
@@ -82,5 +88,11 @@ body{
 
   .inputlabel5
   {
-
+    width: 250px;
+    height: 50px;
   }
+.submit
+{
+  width: 250px;
+  height: 50px;
+}

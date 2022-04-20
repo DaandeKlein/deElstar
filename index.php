@@ -9,7 +9,7 @@
     <body>
     <div class ="container">
 	<div class ="center">
-    <legend>Registratie</legend>
+    <legend class = "legend">Registratie</legend>
     <form action="verhuur.php" method="post">
     <label class ="labels">Naam:</label>
     <input class ="inputlabel" name="Naam" type="tekst"><br>
