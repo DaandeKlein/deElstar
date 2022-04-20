@@ -9,11 +9,11 @@
 
             if (isset($_POST["submit"]))
             {
-                $naam = $_POST["naam"];
-                $adres = $_POST["adres"];
-                $woonplaats = $_POST["woonplaats"];
-                $telefoon = $_POST["telefoon"];
-                $emailadress = $_POST["emailadress"];
+                $naam = $_POST["Naam"];
+                $adres = $_POST["Adres"];
+                $woonplaats = $_POST["Woonplaats"];
+                $telefoon = $_POST["Telefoon"];
+                $emailadress = $_POST["Emailadress"];
 
                 $sql = "INSERT INTO klant(Naam, Adres, Woonplaats, Telefoon, Email) 
                 VALUES (?, ?, ?, ?, ?);";
