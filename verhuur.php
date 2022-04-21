@@ -27,7 +27,20 @@
 
         <?php 
         
-            $query = "SELECT * FROM fiets";
+            $query = "SELECT 
+                fiets.Type, fiets.Maat, fiets.DamensHeren, fiets.Prijs, merk.Naam, status.Status 
+                FROM 
+                    fiets
+                LEFT JOIN 
+                    merk 
+                on 
+                    merk.MerkID = fiets.MerkID 
+                LEFT JOIN   
+                    status 
+                on 
+                    status.StatusID = fiets.StatusID
+                Order By
+                    merk.Naam asc";
             $query_run = mysqli_query($conn, $query);
             $check_fiets = mysqli_num_rows($query_run) > 0;
 
@@ -40,21 +53,21 @@
                 while($row = mysqli_fetch_array($query_run))
                 {
                    ?>
-
                     
                             <div class="col-md-3">
                                 <div class="card">
                                     <div class="card-body">
                                         <img src="" class="card-img-top" alt="">
                                         <h2 class="card-title"> <?php echo $row['Type']; ?> </h2>
-                                        <p class="card-text"> <?php echo $row['MerkID']; ?></p>
-                                        <p class="card-text"> <?php echo $row['Maat']; ?></p>
-                                        <p class="card-text"> <?php echo $row['DamensHeren']; ?></p>
-                                        <p class="card-text"> <?php echo $row['Prijs']; ?></p>
-                                        <p class="card-text"> <?php echo $row['StatusID']; ?></p>
+                                        <p class="card-text"> Merk: <?php echo $row['Naam']; ?></p>
+                                        <p class="card-text"> Maat: <?php echo $row['Maat']; ?></p>
+                                        <p class="card-text"> <?php echo $row['DamensHeren']; ?>: fiets</p>
+                                        <p class="card-text"> Status: <?php echo $row['Status']; ?></p>
+                                        <p class="card-text"> Prijs: €<?php echo $row['Prijs']; ?></p>
                                     </div>
                                 </div>
                             </div>
+
                    <?php                                       
                 }
                 ?>
