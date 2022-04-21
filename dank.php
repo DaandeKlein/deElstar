@@ -7,9 +7,13 @@
 		<link rel="stylesheet" href="dank.css">
     </head>
     <body>
-    
-        <p>Bedankt voor het huren bij fietsverhuur de Elstar.</p>
+
+
+        <div class ="texti"> 
+          <p>Bedankt voor het huren bij fietsverhuur de Elstar.</p>
+        </div>
         <a href="index.php" class="link_button">Home</a>
+     
 
 
 
