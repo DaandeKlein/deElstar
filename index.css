@@ -22,7 +22,7 @@ body{
   {
     display: block;
     float: left;
-    width: 250px;
+    width: 255px;
     font-size:50px 
   }
 
@@ -36,8 +36,7 @@ body{
   .labels2
   {
     display: block;
-    float: left;
-    width: 250px;
+    width: 255px;
     font-size:50px 
   }
 
@@ -52,7 +51,7 @@ body{
   {
     display: block;
     float: left;
-    width: 250px;
+    width: 255px;
     font-size:50px 
   }
 
@@ -67,8 +66,7 @@ body{
   .labels4
   {
     display: block;
-    float: left;
-    width: 250px;
+    width: 255px;
     font-size:50px 
   }
 
@@ -82,8 +80,7 @@ body{
   .labels5
   {
     display: block;
-    float: left;
-    width: 250px;
+    width: 255px;
     font-size:50px 
   }
 
@@ -92,7 +89,6 @@ body{
     width: 250px;
     height: 50px;
     box-shadow: 0 0 11px #84E184;
-    color:#84E184
   }
 .submit
 {
