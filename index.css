@@ -2,11 +2,14 @@ body{
     background: linear-gradient(#84E184, #ff0800);
     
 }
-.center {
+.container
+{
+}
+.center 
+{
   margin: auto;
-  width: 15%;
+  width: 25%;
   padding: 10px;
-    
   }
 
   .legend
@@ -18,7 +21,8 @@ body{
   .labels
   {
     display: block;
-    width: 75px;
+    float: left;
+    width: 250px;
     font-size:50px 
   }
 
@@ -32,11 +36,9 @@ body{
   .labels2
   {
     display: block;
-
-    width: 75px;
-    font-size:50px
-    
-    
+    float: left;
+    width: 250px;
+    font-size:50px 
   }
 
   .inputlabel2
@@ -49,10 +51,9 @@ body{
   .labels3
   {
     display: block;
-    width: 75px;
-    font-size:50px
-    
-    
+    float: left;
+    width: 250px;
+    font-size:50px 
   }
 
   
@@ -66,11 +67,9 @@ body{
   .labels4
   {
     display: block;
-
-    width: 75px;
-    font-size:50px
-    
-    
+    float: left;
+    width: 250px;
+    font-size:50px 
   }
 
   .inputlabel4
@@ -83,11 +82,9 @@ body{
   .labels5
   {
     display: block;
-
-    width: 75px;
-    font-size:50px
-    
-    
+    float: left;
+    width: 250px;
+    font-size:50px 
   }
 
   .inputlabel5
@@ -95,9 +92,11 @@ body{
     width: 250px;
     height: 50px;
     box-shadow: 0 0 11px #84E184;
+    color:#84E184
   }
 .submit
 {
   width: 250px;
   height: 50px;
+  font-size: 25px;
 }
