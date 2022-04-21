@@ -28,7 +28,7 @@
         <?php 
         
             $query = "SELECT 
-                fiets.Type, fiets.Maat, fiets.DamensHeren, fiets.Prijs, merk.Naam, status.Status 
+                fiets.Type, fiets.Maat, fiets.DamensHeren, fiets.Prijs, merk.Naam, status.Status, status.StatusID, fiets.ID 
                 FROM 
                     fiets
                 LEFT JOIN 
@@ -64,6 +64,20 @@
                                         <p class="card-text"> <?php echo $row['DamensHeren']; ?>: fiets</p>
                                         <p class="card-text"> Status: <?php echo $row['Status']; ?></p>
                                         <p class="card-text"> Prijs: €<?php echo $row['Prijs']; ?></p>
+                                        
+                                        <?php
+                                        
+                                        if ($row['StatusID'] == 1)
+                                        {?>
+                                            <form action="verhuurafronden.php" method="Post">
+                                                <input type="hidden" name="fietsID" value="<?php echo $row['ID']; ?>">
+                                                <input type="submit" name="verhuur" value="huur fiets">
+                                            </form>
+                                        <?php
+                                        }
+                                        
+                                        ?>
+
                                     </div>
                                 </div>
                             </div>
