@@ -43,7 +43,7 @@
 <table>
     <tbody>
     <tr><td><label class ="labels5">Emailadress:</label></td>
-    <td><input class ="inputlabel5" name="emailadress" type="tekst"><br></td></tr>
+    <td><input class ="inputlabel5" name="Emailadress" type="tekst"><br></td></tr>
     </tbody>
 </table>
 
