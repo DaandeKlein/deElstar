@@ -7,6 +7,8 @@
 
         <?php 
         
+            include("connect.php");
+
             $query = "SELECT 
                 fiets.Type, fiets.Maat, fiets.DamensHeren, fiets.Prijs, merk.Naam, status.Status, status.StatusID, fiets.ID 
                 FROM 
