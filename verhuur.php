@@ -4,26 +4,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>   
     <body>
-        
-        <?php
-            include("connect.php");
-
-            if (isset($_POST["submit"]))
-            {
-                $naam = $_POST["Naam"];
-                $adres = $_POST["Adres"];
-                $woonplaats = $_POST["Woonplaats"];
-                $telefoon = $_POST["Telefoon"];
-                $emailadress = $_POST["Emailadress"];
-
-                $sql = "INSERT INTO klant(Naam, Adres, Woonplaats, Telefoon, Email) 
-                VALUES (?, ?, ?, ?, ?);";
-                $pdo->prepare($sql)->execute([$naam, $adres, $woonplaats, $telefoon, $emailadress]);
-            }
-
-            unset($_POST["submit"]);
-
-        ?>
 
         <?php 
         
