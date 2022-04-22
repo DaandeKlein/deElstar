@@ -10,7 +10,7 @@
     <div class ="container">
 	<div class ="center">
     <legend class = "legend">Registratie</legend>
-    <form action="verhuur.php" method="post">
+    <form action="dank.php" method="post">
     
 <table>
     <tbody>
