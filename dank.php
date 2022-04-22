@@ -8,8 +8,7 @@
     </head>
     <body>
 
-              
-    <?php
+<?php
             include("connect.php");
 
             if (isset($_POST["submit"]))
@@ -29,13 +28,11 @@
 
         ?>
 
-
-
-        <div class ="texti"> 
-          <p>Bedankt voor het huren bij fietsverhuur de Elstar.</p>
-        </div>
-        <a href="index.php" class="link_button">Home</a>
-     
+<div class ="text"> 
+            <p>Bedankt voor het registreren bij fietsverhuur de Elstar.</p>
+          </div>
+              <a href="index.php" class="link_button">Home</a>
+      
 
 
 
