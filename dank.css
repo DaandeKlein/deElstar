@@ -22,5 +22,10 @@ body{
     
     .text
     {    
-        color:#ff0800;
+        color:#000000;
+        display: block;
+        font-size: 70px;
+        padding: 200px;
+        
+
     }
