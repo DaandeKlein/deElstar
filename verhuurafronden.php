@@ -62,7 +62,7 @@
                             </div>
                         
                         <br>
-                            <button class="btn btn-primary" type="submit">Verhuuring Afronden</button>
+                            <button class="btn btn-primary" type="submit">Verhuur Afronden</button>
                         </form>
                     </div>
                 <?php
