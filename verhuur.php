@@ -6,8 +6,28 @@
     <body>
 
         <?php 
-        
+            session_start();
+
             include("connect.php");
+
+
+            if(isset($_POST["verhuur"]))
+            {
+                $FietsID = $_SESSION["ID"];
+                $Email = $_POST["Email"];
+                $DatumVerhuur = $_POST["DatumVan"];
+                $DatumTot = $_POST["DatumTot"];
+
+                $stmt1 = $pdo->query("SELECT * FROM klant WHERE Email = '$Email' ");
+                foreach ($stmt1 as $rij1){
+                    $klantID = $rij1["ID"];
+                }
+
+                $sql = "INSERT INTO verhuur (KlantID, FietsID, DatumVerhuur, DatumTot)
+                    VALUES (?, ?, ?, ?);";
+                    $pdo->prepare($sql)->execute([$klantID, $FietsID, $DatumVerhuur, $DatumTot]);
+
+            }
 
             $query = "SELECT 
                 fiets.Type, fiets.Maat, fiets.DamensHeren, fiets.Prijs, merk.Naam, status.Status, status.StatusID, fiets.ID 
