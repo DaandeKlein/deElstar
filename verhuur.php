@@ -30,7 +30,7 @@
             }
 
             $query = "SELECT 
-                fiets.Type, fiets.Maat, fiets.DamensHeren, fiets.Prijs, merk.Naam, status.Status, status.StatusID, fiets.ID 
+                fiets.Type, fiets.Maat, fiets.DamensHeren, fiets.Prijs, merk.MerkNaam, status.Status, status.StatusID, fiets.ID 
                 FROM 
                     fiets
                 LEFT JOIN 
@@ -42,7 +42,7 @@
                 on 
                     status.StatusID = fiets.StatusID
                 Order By
-                    merk.Naam asc";
+                    merk.MerkNaam asc";
             $query_run = mysqli_query($conn, $query);
             $check_fiets = mysqli_num_rows($query_run) > 0;
 
@@ -56,12 +56,12 @@
                 {
                    ?>
                     
-                            <div class="col-md-3">
+                            <div class="col-md-3 pb-2">
                                 <div class="card">
                                     <div class="card-body">
                                         <img src="" class="card-img-top" alt="">
                                         <h2 class="card-title"> <?php echo $row['Type']; ?> </h2>
-                                        <p class="card-text"> Merk: <?php echo $row['Naam']; ?></p>
+                                        <p class="card-text"> Merk: <?php echo $row['MerkNaam']; ?></p>
                                         <p class="card-text"> Maat: <?php echo $row['Maat']; ?></p>
                                         <p class="card-text"> <?php echo $row['DamensHeren']; ?>: fiets</p>
                                         <p class="card-text"> Status: <?php echo $row['Status']; ?></p>
