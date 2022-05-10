@@ -75,7 +75,7 @@ if(isset($_POST)){
         }
     }
 
-        echo "<h1>Klanten Informatie</h1>";
+        echo "<h1>Statusen</h1>";
 
           $tabelData = '<table border="1" width="700px"><tr>
           <td>StatusID</td>
