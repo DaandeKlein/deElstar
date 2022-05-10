@@ -6,7 +6,7 @@
     <body>
     <div class="table_div">
           <?php
-
+          include("navbar.php");
           include("connect.php");
 
           $stmt = $pdo->query("SELECT * FROM verhuur");

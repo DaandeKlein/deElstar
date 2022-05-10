@@ -21,12 +21,16 @@
 }
 
 .nav{
-  text-align: center;
+  padding: auto;
   color: #000000;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2vw;
   margin-bottom: 6px;
+  padding-left: 100px; 
+  position: sticky;
+   top: 0;
+   z-index: 100;
 }
 
 #verhuur{
