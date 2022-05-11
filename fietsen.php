@@ -10,7 +10,7 @@
           include("navbar.php");
           include("connect.php");
 
-          $stmt = $pdo->query("SELECT * FROM fiets, merk");
+          $stmt = $pdo->query("SELECT * FROM merk");
 
           if(isset($_POST['toevoegen'])){
               $MerkID = $_POST['merk'];
