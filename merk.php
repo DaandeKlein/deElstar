@@ -25,7 +25,7 @@ if(isset($_POST['toevoegen'])){
 <h1>Merken toevoegen</h1>
 <div class="table_div"> 
 <form action="merk.php" method="post">
-  <table border="1" width="500px">
+  <table width="500px">
       <tr>
           <td>MerkNaam:</td>
           <td><input type="text" placeholder="merknaam" name="merknaam"></td>

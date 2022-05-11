@@ -26,7 +26,7 @@
         <h1>Verhuringen toevoegen</h1>
         <div class="table_div"> 
         <form action="verhuringen.php" method="post">
-            <table border="1" width="500px">
+            <table width="500px">
                 <tr>
                     <td>KlantID:</td>
                     <td><input type="text" placeholder="klantID" name="klantID"></td>

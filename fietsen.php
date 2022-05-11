@@ -29,7 +29,7 @@
         <h1>fietsen toevoegen</h1>
         <div class="table_div"> 
         <form action="fietsen.php" method="post">
-            <table border="1" width="500px">
+            <table  width="500px">
                 <tr>
                 <td><label>MerkID:</label></td>
                     <td><select name="merk" id="merk">
