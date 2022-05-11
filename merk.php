@@ -22,7 +22,7 @@ if(isset($_POST['toevoegen'])){
 ?>
 
 <div class="Container">
-<h1>fietsen toevoegen</h1>
+<h1>Merken toevoegen</h1>
 <div class="table_div"> 
 <form action="merk.php" method="post">
   <table border="1" width="500px">
